@@ -39,128 +39,78 @@ public class Songbird extends Finch {
         pause(1.5);
     }
 
+public void segment2(){
+ // How I
+        playNote(fSharp, .5);
+        pause(1);
 
-// Segment 2
-    // How I
-        bird.playNote(fSharp, .5);
-        bird.pause(1);
-
-        bird.playNote(fSharp, .5);
-        bird.pause(1);
+        playNote(fSharp, .5);
+        pause(1);
 
     // wonder
-        bird.playNote(eSharp, .5);
-        bird.pause(1);
+        playNote(eSharp, .5);
+        pause(1);
 
-        bird.playNote(eSharp, .5);
-        bird.pause(1.0);
+        playNote(eSharp, .5);
+        pause(1.0);
 
     // What you
-        bird.playNote(dSharp, .5);
-        bird.pause(1);
+        playNote(dSharp, .5);
+        pause(1);
 
-        bird.playNote(dSharp, .5);
-        bird.pause(1.0);
+        playNote(dSharp, .5);
+        pause(1.0);
 
     // are
-        bird.playNote(areC, .8);
-        bird.pause(1.5);
-
-//Segment 3
+        playNote(areC, .8);
+        pause(1.5);
+}
+    public void segment3(){
     // up above the
-        bird.playNote(gSharp, .5);
-        bird.pause(1.0);
-        bird.playNote(gSharp, .5);
-        bird.pause(1.0);
+        playNote(gSharp, .5);
+        pause(1.0);
+        playNote(gSharp, .5);
+        pause(1.0);
 
-        bird.playNote(fSharp, .5);
-        bird.pause(1);
+        playNote(fSharp, .5);
+        pause(1);
 
-        bird.playNote(fSharp, .5);
-        bird.pause(1);
+        playNote(fSharp, .5);
+        pause(1);
 
     // world so high
-        bird.playNote(eSharp, .5);
-        bird.pause(1);
+        playNote(eSharp, .5);
+        pause(1);
 
-        bird.playNote(eSharp, .5);
-        bird.pause(1.0);
+        playNote(eSharp, .5);
+        pause(1.0);
 
-        bird.playNote(dSharp, .5);
-        bird.pause(1);
+        playNote(dSharp, .5);
+        pause(1);
 
-//Segment 4
+    }
+public void segment4(){
     // like a diamond
-        bird.playNote(gSharp, .5);
-        bird.pause(1.0);
-        bird.playNote(gSharp, .5);
-        bird.pause(1.0);
+        playNote(gSharp, .5);
+        pause(1.0);
+        playNote(gSharp, .5);
+        pause(1.0);
 
-        bird.playNote(fSharp, .5);
-        bird.pause(1);
+        playNote(fSharp, .5);
+        pause(1);
 
-        bird.playNote(fSharp, .5);
-        bird.pause(1);
+        playNote(fSharp, .5);
+        pause(1);
 
     // in the sky
-        bird.playNote(eSharp, .5);
-        bird.pause(1);
+        playNote(eSharp, .5);
+        pause(1);
 
-        bird.playNote(eSharp, .5);
-        bird.pause(1.0);
+        playNote(eSharp, .5);
+        pause(1.0);
 
-        bird.playNote(dSharp, .5);
-        bird.pause(1);
-
-//Segment 5
-    // Twinkle
-        bird.playNote(cSharp, .5);
-        bird.pause(1);
-
-        bird.playNote(cSharp, .5);
-        bird.pause(1);
-
-    //Twinkle
-        bird.playNote(gSharp, .5);
-        bird.pause(1);
-
-        bird.playNote(gSharp, .5);
-        bird.pause(1);
-    // Little
-        bird.playNote(aSharp, .5);
-        bird.pause(1);
-
-        bird.playNote(aSharp, .5);
-        bird.pause(1.0);
-
-    // Star
-        bird.playNote(gSharp, 1);
-        bird.pause(1.5);
-
-//Segment 6
-    // How I
-        bird.playNote(fSharp, .5);
-        bird.pause(1);
-
-        bird.playNote(fSharp, .5);
-        bird.pause(1);
-
-    // wonder
-        bird.playNote(eSharp, .5);
-        bird.pause(1);
-
-        bird.playNote(eSharp, .5);
-        bird.pause(1.0);
-
-    // What you
-        bird.playNote(d, .5);
-        bird.pause(1);
-
-        bird.playNote(d, .5);
-        bird.pause(1.0);
-
-    // are
-        bird.playNote(areC, .8);
-        bird.pause(1.5);
+        playNote(dSharp, .5);
+        pause(1);
+}
 
 }
