@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.net.URI;
 
 /**
  * This is an abstract class that is inherited by Microbit.java, Hummingbird.java and Finch.java.
